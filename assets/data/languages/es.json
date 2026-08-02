@@ -1,0 +1,101 @@
+{
+    "menu": {
+        "info": "Información",
+        "language": "Idioma",
+        "theme": "Tema"
+    },
+
+    "fab": {
+        "loadChecklist": "Cargar lista",
+        "createChecklist": "Crear nueva lista",
+        "addCategory": "Añadir categoría",
+        "renameChecklist": "Renombrar lista",
+        "resetChecklist": "Restablecer lista"
+    },
+
+    "home": {
+        "tagline": "no olvides nada",
+        "welcome": "Bienvenido a Sport Checklist",
+        "createFirst": "Crea tu primera lista desde el menú inferior.",
+        "yourChecklists": "Tus listas"
+    },
+
+    "checklist": {
+        "title": "Lista"
+    },
+
+    "modal": {
+        "createChecklist": "Crear lista",
+        "sportName": "Nombre del deporte",
+        "create": "Crear",
+        "add": "Añadir",
+
+        "createFirstCategory": "Crear primera categoría",
+        "categoryName": "Nombre de la categoría",
+        "continue": "Continuar",
+
+        "addFirstItem": "Añadir primer objeto",
+        "itemName": "Nombre del objeto",
+
+        "addCategory": "Añadir categoría",
+        "addItem": "Añadir objeto",
+
+        "renameChecklist": "Renombrar lista",
+        "checklistName": "Nombre de la lista",
+        "save": "Guardar",
+
+        "loadChecklist": "Cargar lista",
+        "load": "Cargar",
+
+        "resetChecklist": "Restablecer lista",
+        "resetWarning": "¿Estás seguro de que quieres desmarcar todos los elementos? ¡Esta acción no se puede deshacer!",
+        "cancel": "Cancelar"
+    },
+
+    "progress": {
+        "itemsTaken": "objetos preparados"
+    },
+
+    "info": {
+        "description": "WebApp desarrollada para preparar tu próxima competición y no olvidar nada.",
+        "goodLuck": "¡Buena suerte y buena competición!",
+        "contact": "Contáctanos para soporte o comentarios:",
+        "tagline": "no olvides nada",
+        "write": "Escríbenos",
+        "welcome": "Bienvenido"
+    },
+
+    "install": {
+        "iosTitle": "Añade Sport Checklist a la pantalla de inicio",
+        "iosText": "En iPhone abre Safari, pulsa Compartir, selecciona \"Añadir a pantalla de inicio\" y luego \"Añadir\".",
+
+        "androidTitle": "Instala Sport Checklist en tu teléfono",
+        "androidText": "En Android abre el menú del navegador y selecciona \"Instalar aplicación\" o \"Añadir a pantalla de inicio\".",
+
+        "playStoreTitle": "Descarga Sport Checklist para Android",
+        "playStoreText": "Instala la aplicación desde Play Store para tenerla siempre a mano.",
+        "playStoreButton": "Abrir Play Store"
+    },
+
+    "alert": {
+        "noTemplate": "No hay plantillas disponibles"
+    },
+
+    "language": {
+        "title": "Idioma",
+        "system": "Idioma del sistema",
+        "italian": "Italiano",
+        "english": "Inglés",
+        "french": "Francés",
+        "spanish": "Español",
+        "german": "Alemán"
+    },
+    "themes": {
+        "title": "Tema",
+        "red": "Racing Red",
+        "green": "Forest Green",
+        "blue": "Ocean Blue",
+        "purple": "Purple Energy",
+        "orange": "Sunset Orange"
+    }
+}

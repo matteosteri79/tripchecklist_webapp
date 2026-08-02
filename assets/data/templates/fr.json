@@ -1,0 +1,274 @@
+[
+  {
+      "id": "triathlon",
+      "name": "Triathlon",
+      "icon": "timeline",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Natation",
+          "icon": "swim",
+          "items": [
+            {"name": "Lunettes de natation"},
+            {"name": "Bodysuit"},
+            {"name": "Combinaison néoprène"},
+            {"name": "Bonnet de bain"},
+            {"name": "Claquettes"},
+            {"name": "GPS"},
+            {"name": "Ceinture cardio"}
+          ]
+        },
+        {
+          "name": "Cyclisme",
+          "icon": "bike",
+          "items": [
+            {"name": "Vélo"},
+            {"name": "Casque"},
+            {"name": "Chaussures vélo"},
+            {"name": "Lunettes de soleil"},
+            {"name": "Chaussettes"},
+            {"name": "Bidon"},
+            {"name": "Pompe vélo"}
+          ]
+        },
+        {
+          "name": "Course",
+          "items": [
+            {"name": "Chaussures running"},
+            {"name": "Lunettes de soleil"},
+            {"name": "Casquette"}
+          ]
+        },
+        {
+          "name": "Transitions",
+          "items": [
+            {"name": "Porte-dossard"},
+            {"name": "Élastiques chaussures vélo"},
+            {"name": "Talc"},
+            {"name": "Vaseline"}
+          ]
+        },
+        {
+          "name": "Alimentation",
+          "items": [
+            {"name": "Eau/Bidon"},
+            {"name": "Sels minéraux"},
+            {"name": "Gel glucidique"},
+            {"name": "Barres énergétiques"},
+            {"name": "Fruits secs"}
+          ]
+        },
+        {
+          "name": "Avant/Après course",
+          "items": [
+            {"name": "Licence du club"},
+            {"name": "Vêtements de rechange"},
+            {"name": "Tenue de l'équipe"},
+            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nuoto",
+      "name": "Natation",
+      "icon": "swim",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Général",
+          "icon": "swim",
+          "items": [
+            {"name": "Lunettes de natation"},
+            {"name": "Combinaison/Combinaison de compétition"},
+            {"name": "Bonnet de bain"},
+            {"name": "Claquettes"}
+          ]
+        },
+        {
+          "name": "Alimentation",
+          "items": [
+            {"name": "Eau/Bidon"},
+            {"name": "Sels minéraux"},
+            {"name": "Gel glucidique"},
+            {"name": "Barres énergétiques"},
+            {"name": "Fruits secs"}
+          ]
+        },
+        {
+          "name": "Avant/Après course",
+          "items": [
+            {"name": "Licence du club"},
+            {"name": "Vêtements de rechange"},
+            {"name": "Tenue de l'équipe"},
+            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
+          ]
+        }
+      ]
+    },    {
+      "id": "ciclismo",
+      "name": "Cyclisme",
+      "icon": "bike",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Général",
+          "icon": "bike",
+          "items": [
+            {"name": "Vélo"},
+            {"name": "Casque"},
+            {"name": "Chaussures vélo"},
+            {"name": "Lunettes de soleil"},
+            {"name": "Chaussettes"},
+            {"name": "Bidon"},
+            {"name": "Pompe vélo"},
+            {"name": "GPS"},
+            {"name": "Ceinture cardio"}
+          ]
+        },
+        {
+          "name": "Alimentation",
+          "items": [
+            {"name": "Eau/Bidon"},
+            {"name": "Sels minéraux"},
+            {"name": "Gel glucidique"},
+            {"name": "Barres énergétiques"},
+            {"name": "Fruits secs"}
+          ]
+        },
+        {
+          "name": "Avant/Après course",
+          "items": [
+            {"name": "Licence du club"},
+            {"name": "Vêtements de rechange"},
+            {"name": "Tenue de l'équipe"},
+            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "corsa",
+      "name": "Course",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Général",
+          "items": [
+            {"name": "Chaussures running"},
+            {"name": "Lunettes de soleil"},
+            {"name": "Casquette"},
+            {"name": "Épingles pour dossard"},
+            {"name": "GPS"},
+            {"name": "Ceinture cardio"}
+          ]
+        },
+        {
+          "name": "Alimentation",
+          "items": [
+            {"name": "Eau/Bidon"},
+            {"name": "Sels minéraux"},
+            {"name": "Gel glucidique"},
+            {"name": "Barres énergétiques"},
+            {"name": "Fruits secs"}
+          ]
+        },
+        {
+          "name": "Avant/Après course",
+          "items": [
+            {"name": "Licence du club"},
+            {"name": "Vêtements de rechange"},
+            {"name": "Tenue de l'équipe"},
+            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
+          ]
+        }
+      ]
+    },    {
+      "id": "tennis",
+      "name": "Tennis",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Général",
+          "items": [
+            {"name": "Raquette"},
+            {"name": "Raquette de rechange"},
+            {"name": "Balles"},
+            {"name": "Sac de sport"},
+            {"name": "Chaussures"},
+            {"name": "Maillot"},
+            {"name": "Short / Jupe"},
+            {"name": "Chaussettes"},
+            {"name": "Casquette / Visière"}
+          ]
+        },
+        {
+          "name": "Alimentation",
+          "items": [
+            {"name": "Eau/Bidon"},
+            {"name": "Sels minéraux"},
+            {"name": "Gel glucidique"},
+            {"name": "Barres énergétiques"},
+            {"name": "Fruits secs"}
+          ]
+        },
+        {
+          "name": "Avant/Après match",
+          "items": [
+            {"name": "Licence du club"},
+            {"name": "Vêtements de rechange"},
+            {"name": "Tenue de l'équipe"},
+            {"name": "Serviette"},
+            {"name": "Poignets"},
+            {"name": "Surgrip de rechange"},
+            {"name": "Ruban / Pansements pour ampoules"},
+            {"name": "Protection solaire"},
+            {"name": "Tenue complète après match"},
+            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "calcio",
+      "name": "Football",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Général",
+          "items": [
+            {"name": "Sac de sport"},
+            {"name": "Chaussures de football"},
+            {"name": "Protège-tibias"},
+            {"name": "Maillot"},
+            {"name": "Short"},
+            {"name": "Chaussettes de football"}
+          ]
+        },
+        {
+          "name": "Alimentation",
+          "items": [
+            {"name": "Eau/Bidon"},
+            {"name": "Sels minéraux"},
+            {"name": "Gel glucidique"},
+            {"name": "Barres énergétiques"},
+            {"name": "Fruits secs"}
+          ]
+        },
+        {
+          "name": "Avant/Après match",
+          "items": [
+            {"name": "Licence du club"},
+            {"name": "Vêtements de rechange"},
+            {"name": "Tenue de l'équipe"},
+            {"name": "Ruban pour fixer les protège-tibias"},
+            {"name": "Tenue complète après match"},
+            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
+          ]
+        }
+      ]
+    }
+  ]

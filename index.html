@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sport Checklist</title>
+    <meta name="theme-color" content="var(--theme-dark)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Sport Checklist">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="assets/images/icon-192.png">
+    <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTKTYDKC86"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WTKTYDKC86');
+    </script>
+</head>
+
+<body>
+
+<header class="top-bar">
+    <img src="assets/images/header.png" class="header-logo">
+
+    <!-- MENU DROPDOWN -->
+    <span id="menuBtn" class="material-icons menu-icon">more_vert</span>
+    <div id="topMenu" class="top-menu hidden">
+
+        <div class="menu-item" data-action="openTheme">
+            <span class="material-icons">palette</span>
+            <span data-i18n="menu.theme">Tema</span>
+        </div>
+        <div class="menu-item" data-action="openLanguage">
+            <span class="material-icons">language</span>
+            <span data-i18n="menu.language">Lingua</span>
+        </div>
+        <div class="menu-item" data-action="openInfo">
+            <span class="material-icons">info</span>
+            <span data-i18n="menu.info">Info</span>
+        </div>
+
+    </div>
+</header>
+
+<main>
+    <div id="activeChecklist" class="">
+        <h2 id="activeChecklistTitle" class="checklist-title"></h2>
+        <div id="checklistProgress" class="checklist-progress hidden">
+            <div class="progress-bar">
+                <div id="progressFill"></div>
+            </div>
+
+            <div class="progress-info">
+                <span id="progressText"></span>
+
+                <div class="progress-right">
+                    <span id="progressComplete" class="material-icons trophy hidden">emoji_events</span>
+                    <span id="progressPercent"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="welcomeScreen" class="welcome"></div>
+
+    <section class="content">
+        <ul id="sportsList"></ul>
+    </section>
+</main>
+
+<!-- Bottom App Menu -->
+<div id="fab" class="fab">
+    <span class="material-icons">add</span>
+</div>
+<div id="backToHomeBtn" class="home hidden">
+    <span class="material-icons">home</span>
+</div>
+
+<div id="actionMenu" class="action-menu hidden">
+    <button id="loadTemplateBtn" class="fab-item">
+        <span class="material-icons">upload</span>
+        <span data-i18n="fab.loadChecklist">Carica checklist</span>
+    </button>
+    <button id="createChecklistBtn" class="fab-item">
+        <span class="material-icons">add</span>
+        <span data-i18n="fab.createChecklist">Crea nuova checklist</span>
+    </button>
+    <button id="addCategoryBtn" class="fab-item">
+        <span class="material-icons">playlist_add</span>
+        <span data-i18n="fab.addCategory">Aggiungi categoria</span>
+    </button>
+    <button id="renameChecklistBtn" class="fab-item">
+        <span class="material-icons">edit</span>
+        <span data-i18n="fab.renameChecklist">Rinomina checklist</span>
+    </button>
+    <button id="resetChecklistBtn" class="fab-item">
+        <span class="material-icons">restart_alt</span>
+        <span data-i18n="fab.resetChecklist">Reset checklist</span>
+    </button>
+</div>
+
+<div id="modalOverlay" class="modal-overlay hidden">
+    <div id="modal" class="modal"></div>
+</div>
+
+<script type="module" src="assets/js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+[
+  {
+      "id": "triathlon",
+      "name": "Triatlón",
+      "icon": "timeline",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Natación",
+          "icon": "swim",
+          "items": [
+            {"name": "Gafas de natación"},
+            {"name": "Mono de triatlón"},
+            {"name": "Neopreno"},
+            {"name": "Gorro de natación"},
+            {"name": "Chanclas"},
+            {"name": "GPS"},
+            {"name": "Banda cardíaca"}
+          ]
+        },
+        {
+          "name": "Ciclismo",
+          "icon": "bike",
+          "items": [
+            {"name": "Bicicleta"},
+            {"name": "Casco"},
+            {"name": "Zapatillas de ciclismo"},
+            {"name": "Gafas de sol"},
+            {"name": "Calcetines"},
+            {"name": "Bidón"},
+            {"name": "Bomba de bicicleta"}
+          ]
+        },
+        {
+          "name": "Carrera",
+          "items": [
+            {"name": "Zapatillas running"},
+            {"name": "Gafas de sol"},
+            {"name": "Gorra"}
+          ]
+        },
+        {
+          "name": "Transiciones",
+          "items": [
+            {"name": "Portadorsal"},
+            {"name": "Gomas para zapatillas de ciclismo"},
+            {"name": "Talco"},
+            {"name": "Vaselina"}
+          ]
+        },
+        {
+          "name": "Alimentación",
+          "items": [
+            {"name": "Agua/Bidón"},
+            {"name": "Sales minerales"},
+            {"name": "Gel de carbohidratos"},
+            {"name": "Barritas energéticas"},
+            {"name": "Frutos secos"}
+          ]
+        },
+        {
+          "name": "Antes/Después de la carrera",
+          "items": [
+            {"name": "Licencia del club"},
+            {"name": "Ropa de cambio"},
+            {"name": "Ropa del equipo"},
+            {"name": "Kit de ducha (Toalla/Albornoz, jabón, chanclas)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nuoto",
+      "name": "Natación",
+      "icon": "swim",
+      "visible": true,
+      "categories": [
+        {
+          "name": "General",
+          "icon": "swim",
+          "items": [
+            {"name": "Gafas de natación"},
+            {"name": "Neopreno/Bañador de competición"},
+            {"name": "Gorro de natación"},
+            {"name": "Chanclas"}
+          ]
+        },
+        {
+          "name": "Alimentación",
+          "items": [
+            {"name": "Agua/Bidón"},
+            {"name": "Sales minerales"},
+            {"name": "Gel de carbohidratos"},
+            {"name": "Barritas energéticas"},
+            {"name": "Frutos secos"}
+          ]
+        },
+        {
+          "name": "Antes/Después de la carrera",
+          "items": [
+            {"name": "Licencia del club"},
+            {"name": "Ropa de cambio"},
+            {"name": "Ropa del equipo"},
+            {"name": "Kit de ducha (Toalla/Albornoz, jabón, chanclas)"}
+          ]
+        }
+      ]
+    },    {
+      "id": "ciclismo",
+      "name": "Ciclismo",
+      "icon": "bike",
+      "visible": true,
+      "categories": [
+        {
+          "name": "General",
+          "icon": "bike",
+          "items": [
+            {"name": "Bicicleta"},
+            {"name": "Casco"},
+            {"name": "Zapatillas de ciclismo"},
+            {"name": "Gafas de sol"},
+            {"name": "Calcetines"},
+            {"name": "Bidón"},
+            {"name": "Bomba de bicicleta"},
+            {"name": "GPS"},
+            {"name": "Banda cardíaca"}
+          ]
+        },
+        {
+          "name": "Alimentación",
+          "items": [
+            {"name": "Agua/Bidón"},
+            {"name": "Sales minerales"},
+            {"name": "Gel de carbohidratos"},
+            {"name": "Barritas energéticas"},
+            {"name": "Frutos secos"}
+          ]
+        },
+        {
+          "name": "Antes/Después de la carrera",
+          "items": [
+            {"name": "Licencia del club"},
+            {"name": "Ropa de cambio"},
+            {"name": "Ropa del equipo"},
+            {"name": "Kit de ducha (Toalla/Albornoz, jabón, chanclas)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "corsa",
+      "name": "Carrera",
+      "visible": true,
+      "categories": [
+        {
+          "name": "General",
+          "items": [
+            {"name": "Zapatillas running"},
+            {"name": "Gafas de sol"},
+            {"name": "Gorra"},
+            {"name": "Imperdibles para el dorsal"},
+            {"name": "GPS"},
+            {"name": "Banda cardíaca"}
+          ]
+        },
+        {
+          "name": "Alimentación",
+          "items": [
+            {"name": "Agua/Bidón"},
+            {"name": "Sales minerales"},
+            {"name": "Gel de carbohidratos"},
+            {"name": "Barritas energéticas"},
+            {"name": "Frutos secos"}
+          ]
+        },
+        {
+          "name": "Antes/Después de la carrera",
+          "items": [
+            {"name": "Licencia del club"},
+            {"name": "Ropa de cambio"},
+            {"name": "Ropa del equipo"},
+            {"name": "Kit de ducha (Toalla/Albornoz, jabón, chanclas)"}
+          ]
+        }
+      ]
+    },    {
+      "id": "tennis",
+      "name": "Tenis",
+      "visible": true,
+      "categories": [
+        {
+          "name": "General",
+          "items": [
+            {"name": "Raqueta"},
+            {"name": "Raqueta de repuesto"},
+            {"name": "Pelotas"},
+            {"name": "Bolsa de deporte"},
+            {"name": "Zapatillas"},
+            {"name": "Camiseta"},
+            {"name": "Pantalón corto / Falda"},
+            {"name": "Calcetines"},
+            {"name": "Gorra / Visera"}
+          ]
+        },
+        {
+          "name": "Alimentación",
+          "items": [
+            {"name": "Agua/Bidón"},
+            {"name": "Sales minerales"},
+            {"name": "Gel de carbohidratos"},
+            {"name": "Barritas energéticas"},
+            {"name": "Frutos secos"}
+          ]
+        },
+        {
+          "name": "Antes/Después del partido",
+          "items": [
+            {"name": "Licencia del club"},
+            {"name": "Ropa de cambio"},
+            {"name": "Ropa del equipo"},
+            {"name": "Toalla"},
+            {"name": "Muñequeras"},
+            {"name": "Overgrip de repuesto"},
+            {"name": "Cinta / Tiritas para ampollas"},
+            {"name": "Protección solar"},
+            {"name": "Cambio completo después del partido"},
+            {"name": "Kit de ducha (Toalla/Albornoz, jabón, chanclas)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "calcio",
+      "name": "Fútbol",
+      "visible": true,
+      "categories": [
+        {
+          "name": "General",
+          "items": [
+            {"name": "Bolsa de deporte"},
+            {"name": "Botas de fútbol"},
+            {"name": "Espinilleras"},
+            {"name": "Camiseta"},
+            {"name": "Pantalón corto"},
+            {"name": "Calcetines de fútbol"}
+          ]
+        },
+        {
+          "name": "Alimentación",
+          "items": [
+            {"name": "Agua/Bidón"},
+            {"name": "Sales minerales"},
+            {"name": "Gel de carbohidratos"},
+            {"name": "Barritas energéticas"},
+            {"name": "Frutos secos"}
+          ]
+        },
+        {
+          "name": "Antes/Después del partido",
+          "items": [
+            {"name": "Licencia del club"},
+            {"name": "Ropa de cambio"},
+            {"name": "Ropa del equipo"},
+            {"name": "Cinta para fijar las espinilleras"},
+            {"name": "Cambio completo después del partido"},
+            {"name": "Kit de ducha (Toalla/Albornoz, jabón, chanclas)"}
+          ]
+        }
+      ]
+    }
+
+  ]

@@ -1,0 +1,101 @@
+{
+  "menu": {
+    "info": "Info",
+    "language": "Language",
+    "theme": "Theme"
+  },
+
+  "fab": {
+    "loadChecklist": "Load checklist",
+    "createChecklist": "Create new checklist",
+    "addCategory": "Add category",
+    "renameChecklist": "Rename checklist",
+    "resetChecklist": "Reset checklist"
+  },
+
+  "home": {
+    "tagline": "never forget anything",
+    "welcome": "Welcome to Sport Checklist",
+    "createFirst": "Create your first checklist from the bottom menu.",
+    "yourChecklists": "Your checklists"
+  },
+
+  "checklist": {
+    "title": "Checklist"
+  },
+
+  "modal": {
+    "createChecklist": "Create checklist",
+    "sportName": "Sport name",
+    "create": "Create",
+    "add": "Add",
+
+    "createFirstCategory": "Create first category",
+    "categoryName": "Category name",
+    "continue": "Continue",
+
+    "addFirstItem": "Add first item",
+    "itemName": "Item name",
+
+    "addCategory": "Add category",
+    "addItem": "Add item",
+
+    "renameChecklist": "Rename checklist",
+    "checklistName": "Checklist name",
+    "save": "Save",
+
+    "loadChecklist": "Load checklist",
+    "load": "Load",
+
+    "resetChecklist": "Reset checklist",
+    "resetWarning": "Are you sure you want to uncheck all items? This action cannot be undone!",
+    "cancel": "Cancel"
+  },
+
+  "progress": {
+    "itemsTaken": "items taken"
+  },
+
+  "info": {
+    "description": "WebApp developed to prepare for your next race and never forget anything.",
+    "goodLuck": "Good luck and have a great race!",
+    "contact": "Contact us for support or feedback:",
+    "tagline": "never forget anything",
+    "write": "Write to us",
+    "welcome": "Welcome"
+  },
+
+  "install": {
+    "iosTitle": "Add Sport Checklist to your Home Screen",
+    "iosText": "On iPhone open Safari, tap Share, choose \"Add to Home Screen\" and then \"Add\".",
+
+    "androidTitle": "Install Sport Checklist on your phone",
+    "androidText": "On Android open the browser menu and choose \"Install app\" or \"Add to Home Screen\".",
+
+    "playStoreTitle": "Download Sport Checklist for Android",
+    "playStoreText": "Install the app from the Play Store to always have it at hand.",
+    "playStoreButton": "Open Play Store"
+  },
+
+  "alert": {
+    "noTemplate": "No template available"
+  },
+
+  "language": {
+    "title": "Language",
+    "system": "System language",
+    "italian": "Italian",
+    "english": "English",
+    "french": "French",
+    "spanish": "Spanish",
+    "german": "German"
+  },
+  "themes": {
+    "title": "Theme",
+    "red": "Racing Red",
+    "green": "Forest Green",
+    "blue": "Ocean Blue",
+    "purple": "Purple Energy",
+    "orange": "Sunset Orange"
+  }
+}

@@ -1,0 +1,101 @@
+{
+    "menu": {
+        "info": "Info",
+        "language": "Sprache",
+        "theme": "Design"
+    },
+
+    "fab": {
+        "loadChecklist": "Checkliste laden",
+        "createChecklist": "Neue Checkliste erstellen",
+        "addCategory": "Kategorie hinzufügen",
+        "renameChecklist": "Checkliste umbenennen",
+        "resetChecklist": "Checkliste zurücksetzen"
+    },
+
+    "home": {
+        "tagline": "vergiss nichts",
+        "welcome": "Willkommen bei Sport Checklist",
+        "createFirst": "Erstelle deine erste Checkliste über das Menü unten.",
+        "yourChecklists": "Deine Checklisten"
+    },
+
+    "checklist": {
+        "title": "Checkliste"
+    },
+
+    "modal": {
+        "createChecklist": "Checkliste erstellen",
+        "sportName": "Sportart",
+        "create": "Erstellen",
+        "add": "Hinzufügen",
+
+        "createFirstCategory": "Erste Kategorie erstellen",
+        "categoryName": "Kategoriename",
+        "continue": "Weiter",
+
+        "addFirstItem": "Ersten Gegenstand hinzufügen",
+        "itemName": "Name des Gegenstands",
+
+        "addCategory": "Kategorie hinzufügen",
+        "addItem": "Gegenstand hinzufügen",
+
+        "renameChecklist": "Checkliste umbenennen",
+        "checklistName": "Name der Checkliste",
+        "save": "Speichern",
+
+        "loadChecklist": "Checkliste laden",
+        "load": "Laden",
+
+        "resetChecklist": "Checkliste zurücksetzen",
+        "resetWarning": "Möchtest du wirklich alle Elemente abwählen? Diese Aktion kann nicht rückgängig gemacht werden!",
+        "cancel": "Abbrechen"
+    },
+
+    "progress": {
+        "itemsTaken": "Gegenstände eingepackt"
+    },
+
+    "info": {
+        "description": "WebApp zur Vorbereitung auf deinen nächsten Wettkampf, damit du nichts vergisst.",
+        "goodLuck": "Viel Erfolg und einen guten Wettkampf!",
+        "contact": "Kontaktiere uns für Support oder Feedback:",
+        "tagline": "vergiss nichts",
+        "write": "Schreib uns",
+        "welcome": "Willkommen"
+    },
+
+    "install": {
+        "iosTitle": "Sport Checklist zum Home-Bildschirm hinzufügen",
+        "iosText": "Öffne auf dem iPhone Safari, tippe auf Teilen, wähle „Zum Home-Bildschirm“ und anschließend „Hinzufügen“.",
+
+        "androidTitle": "Sport Checklist auf deinem Smartphone installieren",
+        "androidText": "Öffne auf Android das Browsermenü und wähle „App installieren“ oder „Zum Home-Bildschirm hinzufügen“.",
+
+        "playStoreTitle": "Sport Checklist für Android herunterladen",
+        "playStoreText": "Installiere die App aus dem Play Store, damit sie immer griffbereit ist.",
+        "playStoreButton": "Play Store öffnen"
+    },
+
+    "alert": {
+        "noTemplate": "Keine Vorlagen verfügbar"
+    },
+
+    "language": {
+        "title": "Sprache",
+        "system": "Systemsprache",
+        "italian": "Italienisch",
+        "english": "Englisch",
+        "french": "Französisch",
+        "spanish": "Spanisch",
+        "german": "Deutsch"
+    },
+    "themes": {
+        "title": "Design",
+        "red": "Racing Red",
+        "green": "Forest Green",
+        "blue": "Ocean Blue",
+        "purple": "Purple Energy",
+        "orange": "Sunset Orange"
+    }
+}

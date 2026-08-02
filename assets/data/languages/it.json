@@ -1,0 +1,101 @@
+{
+    "menu": {
+        "info": "Info",
+        "language": "Lingua",
+        "theme": "Tema"
+    },
+
+    "fab": {
+        "loadChecklist": "Carica checklist",
+        "createChecklist": "Crea nuova checklist",
+        "addCategory": "Aggiungi categoria",
+        "renameChecklist": "Rinomina checklist",
+        "resetChecklist": "Reset checklist"
+    },
+
+    "home": {
+        "tagline": "non dimenticare nulla",
+        "welcome": "Benvenuto in Sport Checklist",
+        "createFirst": "Crea la tua prima checklist dal menu in basso.",
+        "yourChecklists": "Le tue checklist"
+    },
+
+    "checklist": {
+        "title": "Checklist"
+    },
+
+    "modal": {
+        "createChecklist": "Crea checklist",
+        "sportName": "Nome sport",
+        "create": "Crea",
+        "add": "Aggiungi",
+
+        "createFirstCategory": "Crea prima categoria",
+        "categoryName": "Nome categoria",
+        "continue": "Continua",
+
+        "addFirstItem": "Aggiungi primo oggetto",
+        "itemName": "Nome oggetto",
+
+        "addCategory": "Aggiungi categoria",
+        "addItem": "Aggiungi oggetto",
+
+        "renameChecklist": "Rinomina checklist",
+        "checklistName": "Nome checklist",
+        "save": "Salva",
+
+        "loadChecklist": "Carica checklist",
+        "load": "Carica",
+
+        "resetChecklist": "Reset checklist",
+        "resetWarning": "Sei sicuro di voler deselezionare tutti gli elementi? L'azione non può essere annullata!",
+        "cancel": "Annulla"
+    },
+
+    "progress": {
+        "itemsTaken": "oggetti presi"
+    },
+
+    "info": {
+        "description": "WebApp sviluppata per preparare la tua prossima gara e non dimenticarti nulla.",
+        "goodLuck": "Buona fortuna e buona gara!",
+        "contact": "Contattaci per supporto o feedback:",
+        "tagline": "non dimenticare nulla",
+        "write": "Scrivici",
+        "welcome": "Benvenuto"
+    },
+
+    "install": {
+        "iosTitle": "Aggiungi Sport Checklist alla schermata Home",
+        "iosText": "Su iPhone apri Safari, tocca Condividi, scegli \"Aggiungi a schermata Home\" e poi \"Aggiungi\".",
+
+        "androidTitle": "Installa Sport Checklist sul telefono",
+        "androidText": "Su Android apri il menu del browser e scegli \"Installa app\" o \"Aggiungi a schermata Home\".",
+
+        "playStoreTitle": "Scarica Sport Checklist per Android",
+        "playStoreText": "Installa l'app dal Play Store per averla sempre a portata di mano.",
+        "playStoreButton": "Apri Play Store"
+    },
+
+    "alert": {
+        "noTemplate": "Nessun template disponibile"
+    },
+
+    "language": {
+        "title": "Lingua",
+        "system": "Lingua di sistema",
+        "italian": "Italiano",
+        "english": "English",
+        "french": "Français",
+        "spanish": "Español",
+        "german": "Deutsch"
+    },
+    "themes": {
+        "title": "Tema",
+        "red": "Racing Red",
+        "green": "Forest Green",
+        "blue": "Ocean Blue",
+        "purple": "Purple Energy",
+        "orange": "Sunset Orange"
+    }
+}

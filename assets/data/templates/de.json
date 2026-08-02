@@ -1,0 +1,275 @@
+[
+  {
+      "id": "triathlon",
+      "name": "Triathlon",
+      "icon": "timeline",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Schwimmen",
+          "icon": "swim",
+          "items": [
+            {"name": "Schwimmbrille"},
+            {"name": "Triathlonanzug"},
+            {"name": "Neoprenanzug"},
+            {"name": "Badekappe"},
+            {"name": "Badeschuhe"},
+            {"name": "GPS"},
+            {"name": "Herzfrequenzgurt"}
+          ]
+        },
+        {
+          "name": "Radfahren",
+          "icon": "bike",
+          "items": [
+            {"name": "Fahrrad"},
+            {"name": "Helm"},
+            {"name": "Radschuhe"},
+            {"name": "Sonnenbrille"},
+            {"name": "Socken"},
+            {"name": "Trinkflasche"},
+            {"name": "Fahrradpumpe"}
+          ]
+        },
+        {
+          "name": "Laufen",
+          "items": [
+            {"name": "Laufschuhe"},
+            {"name": "Sonnenbrille"},
+            {"name": "Mütze"}
+          ]
+        },
+        {
+          "name": "Wechselzonen",
+          "items": [
+            {"name": "Startnummernhalter"},
+            {"name": "Gummibänder für Radschuhe"},
+            {"name": "Talkumpuder"},
+            {"name": "Vaseline"}
+          ]
+        },
+        {
+          "name": "Ernährung",
+          "items": [
+            {"name": "Wasser/Trinkflasche"},
+            {"name": "Mineralsalze"},
+            {"name": "Kohlenhydrat-Gel"},
+            {"name": "Energieriegel"},
+            {"name": "Trockenfrüchte"}
+          ]
+        },
+        {
+          "name": "Vor/Nach dem Wettkampf",
+          "items": [
+            {"name": "Vereinskarte"},
+            {"name": "Wechselkleidung"},
+            {"name": "Teamkleidung"},
+            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "nuoto",
+      "name": "Schwimmen",
+      "icon": "swim",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Allgemein",
+          "icon": "swim",
+          "items": [
+            {"name": "Schwimmbrille"},
+            {"name": "Neoprenanzug/Wettkampfanzug"},
+            {"name": "Badekappe"},
+            {"name": "Badeschuhe"}
+          ]
+        },
+        {
+          "name": "Ernährung",
+          "items": [
+            {"name": "Wasser/Trinkflasche"},
+            {"name": "Mineralsalze"},
+            {"name": "Kohlenhydrat-Gel"},
+            {"name": "Energieriegel"},
+            {"name": "Trockenfrüchte"}
+          ]
+        },
+        {
+          "name": "Vor/Nach dem Wettkampf",
+          "items": [
+            {"name": "Vereinskarte"},
+            {"name": "Wechselkleidung"},
+            {"name": "Teamkleidung"},
+            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
+          ]
+        }
+      ]
+    },    {
+      "id": "ciclismo",
+      "name": "Radfahren",
+      "icon": "bike",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Allgemein",
+          "icon": "bike",
+          "items": [
+            {"name": "Fahrrad"},
+            {"name": "Helm"},
+            {"name": "Radschuhe"},
+            {"name": "Sonnenbrille"},
+            {"name": "Socken"},
+            {"name": "Trinkflasche"},
+            {"name": "Fahrradpumpe"},
+            {"name": "GPS"},
+            {"name": "Herzfrequenzgurt"}
+          ]
+        },
+        {
+          "name": "Ernährung",
+          "items": [
+            {"name": "Wasser/Trinkflasche"},
+            {"name": "Mineralsalze"},
+            {"name": "Kohlenhydrat-Gel"},
+            {"name": "Energieriegel"},
+            {"name": "Trockenfrüchte"}
+          ]
+        },
+        {
+          "name": "Vor/Nach dem Wettkampf",
+          "items": [
+            {"name": "Vereinskarte"},
+            {"name": "Wechselkleidung"},
+            {"name": "Teamkleidung"},
+            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "corsa",
+      "name": "Laufen",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Allgemein",
+          "items": [
+            {"name": "Laufschuhe"},
+            {"name": "Sonnenbrille"},
+            {"name": "Mütze"},
+            {"name": "Sicherheitsnadeln für Startnummer"},
+            {"name": "GPS"},
+            {"name": "Herzfrequenzgurt"}
+          ]
+        },
+        {
+          "name": "Ernährung",
+          "items": [
+            {"name": "Wasser/Trinkflasche"},
+            {"name": "Mineralsalze"},
+            {"name": "Kohlenhydrat-Gel"},
+            {"name": "Energieriegel"},
+            {"name": "Trockenfrüchte"}
+          ]
+        },
+        {
+          "name": "Vor/Nach dem Wettkampf",
+          "items": [
+            {"name": "Vereinskarte"},
+            {"name": "Wechselkleidung"},
+            {"name": "Teamkleidung"},
+            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
+          ]
+        }
+      ]
+    },    {
+      "id": "tennis",
+      "name": "Tennis",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Allgemein",
+          "items": [
+            {"name": "Tennisschläger"},
+            {"name": "Ersatzschläger"},
+            {"name": "Tennisbälle"},
+            {"name": "Sporttasche"},
+            {"name": "Schuhe"},
+            {"name": "Trikot"},
+            {"name": "Shorts / Rock"},
+            {"name": "Socken"},
+            {"name": "Mütze / Visier"}
+          ]
+        },
+        {
+          "name": "Ernährung",
+          "items": [
+            {"name": "Wasser/Trinkflasche"},
+            {"name": "Mineralsalze"},
+            {"name": "Kohlenhydrat-Gel"},
+            {"name": "Energieriegel"},
+            {"name": "Trockenfrüchte"}
+          ]
+        },
+        {
+          "name": "Vor/Nach dem Spiel",
+          "items": [
+            {"name": "Vereinskarte"},
+            {"name": "Wechselkleidung"},
+            {"name": "Teamkleidung"},
+            {"name": "Handtuch"},
+            {"name": "Schweißbänder"},
+            {"name": "Ersatz-Overgrip"},
+            {"name": "Band / Blasenpflaster"},
+            {"name": "Sonnenschutz"},
+            {"name": "Kompletter Wechsel nach dem Spiel"},
+            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "calcio",
+      "name": "Fußball",
+      "visible": true,
+      "categories": [
+        {
+          "name": "Allgemein",
+          "items": [
+            {"name": "Sporttasche"},
+            {"name": "Fußballschuhe"},
+            {"name": "Schienbeinschoner"},
+            {"name": "Trikot"},
+            {"name": "Shorts"},
+            {"name": "Stutzen"}
+          ]
+        },
+        {
+          "name": "Ernährung",
+          "items": [
+            {"name": "Wasser/Trinkflasche"},
+            {"name": "Mineralsalze"},
+            {"name": "Kohlenhydrat-Gel"},
+            {"name": "Energieriegel"},
+            {"name": "Trockenfrüchte"}
+          ]
+        },
+        {
+          "name": "Vor/Nach dem Spiel",
+          "items": [
+            {"name": "Vereinskarte"},
+            {"name": "Wechselkleidung"},
+            {"name": "Teamkleidung"},
+            {"name": "Tape zur Befestigung der Schienbeinschoner"},
+            {"name": "Kompletter Wechsel nach dem Spiel"},
+            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
+          ]
+        }
+      ]
+    }
+
+  ]
