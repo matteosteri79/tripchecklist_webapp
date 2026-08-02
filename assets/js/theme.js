@@ -1,6 +1,6 @@
 import { COLORS } from "./colors.js"
 
-const THEME_STORAGE_KEY = "sport_checklist_theme"
+const THEME_STORAGE_KEY = "trip_checklist_theme"
 
 export const THEMES = {
     RED: "red",
@@ -12,7 +12,7 @@ export const THEMES = {
 
 export function getTheme(){
     return localStorage.getItem(THEME_STORAGE_KEY)
-        || THEMES.RED
+        || THEMES.BLUE
 }
 export function setTheme(theme){
     localStorage.setItem(

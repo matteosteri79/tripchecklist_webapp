@@ -3,7 +3,7 @@
 let currentLanguage = "it"
 let translations = {}
 
-const LANGUAGE_STORAGE_KEY = "sportChecklistLanguage"
+const LANGUAGE_STORAGE_KEY = "checklistLanguage"
 
 const SUPPORTED_LANGUAGES = {
     SYSTEM: "system",

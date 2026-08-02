@@ -15,7 +15,7 @@
 
     "home": {
         "tagline": "non dimenticare nulla",
-        "welcome": "Benvenuto in Sport Checklist",
+        "welcome": "Benvenuto in Trip Checklist",
         "createFirst": "Crea la tua prima checklist dal menu in basso.",
         "yourChecklists": "Le tue checklist"
     },
@@ -66,13 +66,13 @@
     },
 
     "install": {
-        "iosTitle": "Aggiungi Sport Checklist alla schermata Home",
+        "iosTitle": "Aggiungi Trip Checklist alla schermata Home",
         "iosText": "Su iPhone apri Safari, tocca Condividi, scegli \"Aggiungi a schermata Home\" e poi \"Aggiungi\".",
 
-        "androidTitle": "Installa Sport Checklist sul telefono",
+        "androidTitle": "Installa Trip Checklist sul telefono",
         "androidText": "Su Android apri il menu del browser e scegli \"Installa app\" o \"Aggiungi a schermata Home\".",
 
-        "playStoreTitle": "Scarica Sport Checklist per Android",
+        "playStoreTitle": "Scarica Trip Checklist per Android",
         "playStoreText": "Installa l'app dal Play Store per averla sempre a portata di mano.",
         "playStoreButton": "Apri Play Store"
     },

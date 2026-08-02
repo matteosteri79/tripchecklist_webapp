@@ -1,6 +1,6 @@
 {
-  "name": "Sport Checklist",
-  "short_name": "Sport Checklist",
+  "name": "Trip Checklist",
+  "short_name": "Trip Checklist",
   "description": "Checklist sportive da preparare e spuntare prima della gara.",
   "start_url": "./index.html",
   "scope": "./",

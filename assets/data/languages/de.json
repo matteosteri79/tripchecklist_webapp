@@ -15,7 +15,7 @@
 
     "home": {
         "tagline": "vergiss nichts",
-        "welcome": "Willkommen bei Sport Checklist",
+        "welcome": "Willkommen bei Trip Checklist",
         "createFirst": "Erstelle deine erste Checkliste über das Menü unten.",
         "yourChecklists": "Deine Checklisten"
     },
@@ -66,13 +66,13 @@
     },
 
     "install": {
-        "iosTitle": "Sport Checklist zum Home-Bildschirm hinzufügen",
+        "iosTitle": "Trip Checklist zum Home-Bildschirm hinzufügen",
         "iosText": "Öffne auf dem iPhone Safari, tippe auf Teilen, wähle „Zum Home-Bildschirm“ und anschließend „Hinzufügen“.",
 
-        "androidTitle": "Sport Checklist auf deinem Smartphone installieren",
+        "androidTitle": "Trip Checklist auf deinem Smartphone installieren",
         "androidText": "Öffne auf Android das Browsermenü und wähle „App installieren“ oder „Zum Home-Bildschirm hinzufügen“.",
 
-        "playStoreTitle": "Sport Checklist für Android herunterladen",
+        "playStoreTitle": "Trip Checklist für Android herunterladen",
         "playStoreText": "Installiere die App aus dem Play Store, damit sie immer griffbereit ist.",
         "playStoreButton": "Play Store öffnen"
     },
