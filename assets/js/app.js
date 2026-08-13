@@ -8,7 +8,7 @@ if ("serviceWorker" in navigator) {
 
 // ---------- Import ----------
 import { openModal, closeModal } from "./modal.js"
-import { APP_VERSION,SUPPORT_EMAIL,PLAY_STORE_URL } from "./utils.js"
+import { APP_NAME, APP_VERSION, SUPPORT_EMAIL, PLAY_STORE_URL } from "./utils.js"
 import {
     initLanguage,
     setLanguage,
@@ -129,7 +129,7 @@ function renderHome(){
 
         welcome.style.display = "block"
         welcome.innerHTML = `
-            <img src="${getLogoImage()}" alt="Trip Checklist">
+            <img src="${getLogoImage()}" alt="${APP_NAME}">
             <p class="logo-tagline">${t("home.tagline")}</p>
             <p>${t("home.welcome")}</p>
             <p>${t("home.createFirst")}</p>
@@ -345,7 +345,7 @@ function addFirstItemModal(sIndex, cIndex){
 function openInfoModal(){
     openModal(`
         <div class="textcenter">
-            <img src="${getLogoImage()}" class="info-logo" alt="Trip Checklist">
+            <img src="${getLogoImage()}" class="info-logo" alt="${APP_NAME}">
             <p class="logo-tagline">${t("info.tagline")}</p>
             <p><strong>v. ${APP_VERSION}</strong></p>
             <p><small>${t("info.description")}<br>
