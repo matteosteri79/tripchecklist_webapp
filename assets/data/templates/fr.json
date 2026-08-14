@@ -1,274 +1,451 @@
 [
   {
-      "id": "triathlon",
-      "name": "Triathlon",
-      "icon": "timeline",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Natation",
-          "icon": "swim",
-          "items": [
-            {"name": "Lunettes de natation"},
-            {"name": "Bodysuit"},
-            {"name": "Combinaison néoprène"},
-            {"name": "Bonnet de bain"},
-            {"name": "Claquettes"},
-            {"name": "GPS"},
-            {"name": "Ceinture cardio"}
-          ]
-        },
-        {
-          "name": "Cyclisme",
-          "icon": "bike",
-          "items": [
-            {"name": "Vélo"},
-            {"name": "Casque"},
-            {"name": "Chaussures vélo"},
-            {"name": "Lunettes de soleil"},
-            {"name": "Chaussettes"},
-            {"name": "Bidon"},
-            {"name": "Pompe vélo"}
-          ]
-        },
-        {
-          "name": "Course",
-          "items": [
-            {"name": "Chaussures running"},
-            {"name": "Lunettes de soleil"},
-            {"name": "Casquette"}
-          ]
-        },
-        {
-          "name": "Transitions",
-          "items": [
-            {"name": "Porte-dossard"},
-            {"name": "Élastiques chaussures vélo"},
-            {"name": "Talc"},
-            {"name": "Vaseline"}
-          ]
-        },
-        {
-          "name": "Alimentation",
-          "items": [
-            {"name": "Eau/Bidon"},
-            {"name": "Sels minéraux"},
-            {"name": "Gel glucidique"},
-            {"name": "Barres énergétiques"},
-            {"name": "Fruits secs"}
-          ]
-        },
-        {
-          "name": "Avant/Après course",
-          "items": [
-            {"name": "Licence du club"},
-            {"name": "Vêtements de rechange"},
-            {"name": "Tenue de l'équipe"},
-            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "nuoto",
-      "name": "Natation",
-      "icon": "swim",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Général",
-          "icon": "swim",
-          "items": [
-            {"name": "Lunettes de natation"},
-            {"name": "Combinaison/Combinaison de compétition"},
-            {"name": "Bonnet de bain"},
-            {"name": "Claquettes"}
-          ]
-        },
-        {
-          "name": "Alimentation",
-          "items": [
-            {"name": "Eau/Bidon"},
-            {"name": "Sels minéraux"},
-            {"name": "Gel glucidique"},
-            {"name": "Barres énergétiques"},
-            {"name": "Fruits secs"}
-          ]
-        },
-        {
-          "name": "Avant/Après course",
-          "items": [
-            {"name": "Licence du club"},
-            {"name": "Vêtements de rechange"},
-            {"name": "Tenue de l'équipe"},
-            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
-          ]
-        }
-      ]
-    },    {
-      "id": "ciclismo",
-      "name": "Cyclisme",
-      "icon": "bike",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Général",
-          "icon": "bike",
-          "items": [
-            {"name": "Vélo"},
-            {"name": "Casque"},
-            {"name": "Chaussures vélo"},
-            {"name": "Lunettes de soleil"},
-            {"name": "Chaussettes"},
-            {"name": "Bidon"},
-            {"name": "Pompe vélo"},
-            {"name": "GPS"},
-            {"name": "Ceinture cardio"}
-          ]
-        },
-        {
-          "name": "Alimentation",
-          "items": [
-            {"name": "Eau/Bidon"},
-            {"name": "Sels minéraux"},
-            {"name": "Gel glucidique"},
-            {"name": "Barres énergétiques"},
-            {"name": "Fruits secs"}
-          ]
-        },
-        {
-          "name": "Avant/Après course",
-          "items": [
-            {"name": "Licence du club"},
-            {"name": "Vêtements de rechange"},
-            {"name": "Tenue de l'équipe"},
-            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "corsa",
-      "name": "Course",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Général",
-          "items": [
-            {"name": "Chaussures running"},
-            {"name": "Lunettes de soleil"},
-            {"name": "Casquette"},
-            {"name": "Épingles pour dossard"},
-            {"name": "GPS"},
-            {"name": "Ceinture cardio"}
-          ]
-        },
-        {
-          "name": "Alimentation",
-          "items": [
-            {"name": "Eau/Bidon"},
-            {"name": "Sels minéraux"},
-            {"name": "Gel glucidique"},
-            {"name": "Barres énergétiques"},
-            {"name": "Fruits secs"}
-          ]
-        },
-        {
-          "name": "Avant/Après course",
-          "items": [
-            {"name": "Licence du club"},
-            {"name": "Vêtements de rechange"},
-            {"name": "Tenue de l'équipe"},
-            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
-          ]
-        }
-      ]
-    },    {
-      "id": "tennis",
-      "name": "Tennis",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Général",
-          "items": [
-            {"name": "Raquette"},
-            {"name": "Raquette de rechange"},
-            {"name": "Balles"},
-            {"name": "Sac de sport"},
-            {"name": "Chaussures"},
-            {"name": "Maillot"},
-            {"name": "Short / Jupe"},
-            {"name": "Chaussettes"},
-            {"name": "Casquette / Visière"}
-          ]
-        },
-        {
-          "name": "Alimentation",
-          "items": [
-            {"name": "Eau/Bidon"},
-            {"name": "Sels minéraux"},
-            {"name": "Gel glucidique"},
-            {"name": "Barres énergétiques"},
-            {"name": "Fruits secs"}
-          ]
-        },
-        {
-          "name": "Avant/Après match",
-          "items": [
-            {"name": "Licence du club"},
-            {"name": "Vêtements de rechange"},
-            {"name": "Tenue de l'équipe"},
-            {"name": "Serviette"},
-            {"name": "Poignets"},
-            {"name": "Surgrip de rechange"},
-            {"name": "Ruban / Pansements pour ampoules"},
-            {"name": "Protection solaire"},
-            {"name": "Tenue complète après match"},
-            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "calcio",
-      "name": "Football",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Général",
-          "items": [
-            {"name": "Sac de sport"},
-            {"name": "Chaussures de football"},
-            {"name": "Protège-tibias"},
-            {"name": "Maillot"},
-            {"name": "Short"},
-            {"name": "Chaussettes de football"}
-          ]
-        },
-        {
-          "name": "Alimentation",
-          "items": [
-            {"name": "Eau/Bidon"},
-            {"name": "Sels minéraux"},
-            {"name": "Gel glucidique"},
-            {"name": "Barres énergétiques"},
-            {"name": "Fruits secs"}
-          ]
-        },
-        {
-          "name": "Avant/Après match",
-          "items": [
-            {"name": "Licence du club"},
-            {"name": "Vêtements de rechange"},
-            {"name": "Tenue de l'équipe"},
-            {"name": "Ruban pour fixer les protège-tibias"},
-            {"name": "Tenue complète après match"},
-            {"name": "Kit douche (Serviette/Peignoir, savon, claquettes)"}
-          ]
-        }
-      ]
-    }
-  ]
+    "id": "vacation",
+    "name": "Vacances",
+    "icon": "flight",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documents",
+        "icon": "description",
+        "items": [
+          { "name": "Carte d'identité ou passeport" },
+          { "name": "Billets et réservations" },
+          { "name": "Permis de conduire" },
+          { "name": "Assurance voyage" }
+        ]
+      },
+      {
+        "name": "Vêtements",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Sous-vêtements" },
+          { "name": "Vêtements" },
+          { "name": "Chaussures" },
+          { "name": "Pyjama" }
+        ]
+      },
+      {
+        "name": "Hygiène personnelle",
+        "icon": "clean_hands",
+        "items": [
+          { "name": "Brosse à dents" },
+          { "name": "Dentifrice" },
+          { "name": "Shampoing" },
+          { "name": "Déodorant" }
+        ]
+      },
+      {
+        "name": "Électronique",
+        "icon": "devices",
+        "items": [
+          { "name": "Téléphone" },
+          { "name": "Chargeur" },
+          { "name": "Batterie externe" },
+          { "name": "Casque/Écouteurs" }
+        ]
+      },
+      {
+        "name": "Médicaments",
+        "icon": "medical_services",
+        "items": [
+          { "name": "Médicaments personnels" },
+          { "name": "Pansements" },
+          { "name": "Antidouleur" }
+        ]
+      },
+      {
+        "name": "Accessoires",
+        "icon": "backpack",
+        "items": [
+          { "name": "Sac à dos" },
+          { "name": "Lunettes de soleil" },
+          { "name": "Gourde" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business_trip",
+    "name": "Voyage d'affaires",
+    "icon": "work",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documents",
+        "icon": "description",
+        "items": [
+          { "name": "Carte d'identité ou passeport" },
+          { "name": "Billets et réservations" },
+          { "name": "Documents professionnels" }
+        ]
+      },
+      {
+        "name": "Travail",
+        "icon": "work",
+        "items": [
+          { "name": "Ordinateur portable" },
+          { "name": "Chargeur PC" },
+          { "name": "Documents professionnels" },
+          { "name": "Matériel pour réunions" }
+        ]
+      },
+      {
+        "name": "Électronique",
+        "icon": "devices",
+        "items": [
+          { "name": "Téléphone" },
+          { "name": "Chargeur" },
+          { "name": "Adaptateur universel" },
+          { "name": "Casque/Écouteurs" }
+        ]
+      },
+      {
+        "name": "Vêtements",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Costume ou vêtements de travail" },
+          { "name": "Chaussures élégantes" },
+          { "name": "Change personnel" }
+        ]
+      },
+      {
+        "name": "Accessoires",
+        "icon": "backpack",
+        "items": [
+          { "name": "Mallette ou sac à dos" },
+          { "name": "Agenda" },
+          { "name": "Stylo" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camper_van",
+    "name": "Camping-car / Van",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documents et voyage",
+        "icon": "description",
+        "items": [
+          { "name": "Permis de conduire" },
+          { "name": "Documents du véhicule" },
+          { "name": "Assurance" },
+          { "name": "Cartes et itinéraire" }
+        ]
+      },
+      {
+        "name": "Véhicule",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Clés de rechange" },
+          { "name": "Câble d'alimentation externe" },
+          { "name": "Adaptateurs électriques" },
+          { "name": "Niveau de stationnement" },
+          { "name": "Cales de roue" }
+        ]
+      },
+      {
+        "name": "Espace de vie",
+        "icon": "home",
+        "items": [
+          { "name": "Draps" },
+          { "name": "Couvertures" },
+          { "name": "Oreillers" },
+          { "name": "Serviettes" }
+        ]
+      },
+      {
+        "name": "Cuisine",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Casseroles et poêles" },
+          { "name": "Assiettes et couverts" },
+          { "name": "Verres" },
+          { "name": "Cafetière" },
+          { "name": "Réserves alimentaires" }
+        ]
+      },
+      {
+        "name": "Services et autonomie",
+        "icon": "build",
+        "items": [
+          { "name": "Bidon d'eau" },
+          { "name": "Tuyau d'eau" },
+          { "name": "Câble électrique" },
+          { "name": "Adaptateurs de prises" },
+          { "name": "Produits WC chimiques" }
+        ]
+      },
+      {
+        "name": "Sécurité",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit de premiers secours" },
+          { "name": "Extincteur" },
+          { "name": "Lampe de poche" },
+          { "name": "Kit de réparation" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beach",
+    "name": "Mer",
+    "icon": "beach_access",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Plage",
+        "icon": "beach_access",
+        "items": [
+          { "name": "Maillot de bain" },
+          { "name": "Serviette" },
+          { "name": "Tongs" },
+          { "name": "Sac de plage" }
+        ]
+      },
+      {
+        "name": "Protection solaire",
+        "icon": "wb_sunny",
+        "items": [
+          { "name": "Crème solaire" },
+          { "name": "Après-soleil" },
+          { "name": "Lunettes de soleil" },
+          { "name": "Chapeau" }
+        ]
+      },
+      {
+        "name": "Mer",
+        "icon": "pool",
+        "items": [
+          { "name": "Masque et tuba" },
+          { "name": "Jeux de plage" },
+          { "name": "Gourde" }
+        ]
+      },
+      {
+        "name": "Temps libre",
+        "icon": "sports",
+        "items": [
+          { "name": "Livre" },
+          { "name": "Jeux de cartes" },
+          { "name": "Casque/Écouteurs" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mountain",
+    "name": "Montagne",
+    "icon": "terrain",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Randonnée",
+        "icon": "hiking",
+        "items": [
+          { "name": "Chaussures de randonnée" },
+          { "name": "Sac à dos" },
+          { "name": "Bâtons de randonnée" },
+          { "name": "Gourde" }
+        ]
+      },
+      {
+        "name": "Vêtements techniques",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Veste imperméable" },
+          { "name": "Polaire ou sweat" },
+          { "name": "Pantalon technique" },
+          { "name": "Chaussettes techniques" }
+        ]
+      },
+      {
+        "name": "Sécurité",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit de premiers secours" },
+          { "name": "Lampe de poche" },
+          { "name": "Boussole ou GPS" },
+          { "name": "Sifflet d'urgence" }
+        ]
+      },
+      {
+        "name": "Accessoires",
+        "icon": "backpack",
+        "items": [
+          { "name": "Lunettes de soleil" },
+          { "name": "Crème solaire" },
+          { "name": "Chapeau" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camping",
+    "name": "Camping",
+    "icon": "camping",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Abri",
+        "icon": "home",
+        "items": [
+          { "name": "Tente" },
+          { "name": "Piquets de tente" },
+          { "name": "Matelas de sol" },
+          { "name": "Sac de couchage" }
+        ]
+      },
+      {
+        "name": "Cuisine",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Réchaud de camping" },
+          { "name": "Casseroles" },
+          { "name": "Couverts" },
+          { "name": "Gobelets" },
+          { "name": "Nourriture" }
+        ]
+      },
+      {
+        "name": "Éclairage",
+        "icon": "light",
+        "items": [
+          { "name": "Lampe de poche" },
+          { "name": "Lampe de camping" },
+          { "name": "Piles de rechange" }
+        ]
+      },
+      {
+        "name": "Équipement",
+        "icon": "build",
+        "items": [
+          { "name": "Couteau multifonction" },
+          { "name": "Corde" },
+          { "name": "Ruban adhésif" },
+          { "name": "Kit de réparation" }
+        ]
+      },
+      {
+        "name": "Urgence",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit de premiers secours" },
+          { "name": "Médicaments personnels" },
+          { "name": "Répulsif anti-insectes" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "road_trip",
+    "name": "Road Trip",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Voiture",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Permis de conduire" },
+          { "name": "Documents de la voiture" },
+          { "name": "Assurance voiture" },
+          { "name": "Clés de rechange" }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "icon": "navigation",
+        "items": [
+          { "name": "GPS" },
+          { "name": "Cartes hors ligne" },
+          { "name": "Support téléphone voiture" }
+        ]
+      },
+      {
+        "name": "Voyage",
+        "icon": "luggage",
+        "items": [
+          { "name": "Snacks" },
+          { "name": "Eau" },
+          { "name": "Couverture" },
+          { "name": "Oreiller de voyage" }
+        ]
+      },
+      {
+        "name": "Urgence",
+        "icon": "warning",
+        "items": [
+          { "name": "Kit de premiers secours" },
+          { "name": "Triangle de signalisation" },
+          { "name": "Câbles de démarrage" },
+          { "name": "Lampe de poche" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ski",
+    "name": "Ski et neige",
+    "icon": "ac_unit",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Équipement de ski",
+        "icon": "sports",
+        "items": [
+          { "name": "Skis ou snowboard" },
+          { "name": "Chaussures de ski" },
+          { "name": "Bâtons" },
+          { "name": "Casque" },
+          { "name": "Masque de ski" }
+        ]
+      },
+      {
+        "name": "Vêtements techniques",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Veste de ski" },
+          { "name": "Pantalon de ski" },
+          { "name": "Sous-vêtements thermiques" },
+          { "name": "Gants" },
+          { "name": "Chaussettes thermiques" }
+        ]
+      },
+      {
+        "name": "Protection",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Crème solaire" },
+          { "name": "Baume à lèvres" },
+          { "name": "Lunettes de soleil" },
+          { "name": "Kit de premiers secours" }
+        ]
+      },
+      {
+        "name": "Voyage",
+        "icon": "luggage",
+        "items": [
+          { "name": "Documents" },
+          { "name": "Forfait de ski" },
+          { "name": "Réservations" },
+          { "name": "Chargeurs" }
+        ]
+      },
+      {
+        "name": "Temps libre",
+        "icon": "sports",
+        "items": [
+          { "name": "Maillot pour piscine/spa" },
+          { "name": "Tongs" },
+          { "name": "Vêtements confortables" },
+          { "name": "Livre" }
+        ]
+      }
+    ]
+  }
+]

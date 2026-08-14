@@ -1,279 +1,451 @@
 [
-    {
-      "id": "triathlon",
-      "name": "Triathlon",
-      "icon": "timeline",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Nuoto",
-          "icon": "swim",
-          "items": [
-            {"name": "Occhialini"},
-            {"name": "Bodysuit"},
-            {"name": "Muta"},
-            {"name": "Cuffia"},
-            {"name": "Ciabatte"},
-            {"name": "GPS"},
-            {"name": "Fascia cardio"}
-          ]
-        },
-        {
-          "name": "Ciclismo",
-          "icon": "bike",
-          "items": [
-            {"name": "Bici"},
-            {"name": "Casco"},
-            {"name": "Scarpe bici"},
-            {"name": "Occhiali da sole"},
-            {"name": "Calze"},
-            {"name": "Borraccia"},
-            {"name": "Pompetta bici"}
-          ]
-        },
-        {
-          "name": "Corsa",
-          "items": [
-            {"name": "Scarpe running"},
-            {"name": "Occhiali da sole"},
-            {"name": "Cappellino"}
-          ]
-        },
-        {
-          "name": "Transizioni",
-          "items": [
-            {"name": "Portanumero"},
-            {"name": "Elastici scarpe ciclismo"},
-            {"name": "Borotalco"},
-            {"name": "Vasellina"}
-          ]
-        },
-        {
-          "name": "Alimentazione",
-          "items": [
-            {"name": "Acqua/Borraccia"},
-            {"name": "Sali minerali"},
-            {"name": "Carbo gel"},
-            {"name": "Barrette"},
-            {"name": "Frutta secca"}
-          ]
-        },
-        {
-          "name": "Pre/Post gara",
-          "items": [
-            {"name": "Tessera società"},
-            {"name": "Abbigliamento di ricambio"},
-            {"name": "Abbigliamento della squadra"},
-            {"name": "Kit doccia (Asciugamano/Accappatoio, sapone, ciabatte)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "nuoto",
-      "name": "Nuoto",
-      "icon": "swim",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Generale",
-          "icon": "swim",
-          "items": [
-            {"name": "Occhialini"},
-            {"name": "Muta/Costumone"},
-            {"name": "Cuffia"},
-            {"name": "Ciabatte"}
-          ]
-        },
-        {
-          "name": "Alimentazione",
-          "items": [
-            {"name": "Acqua/Borraccia"},
-            {"name": "Sali minerali"},
-            {"name": "Carbo gel"},
-            {"name": "Barrette"},
-            {"name": "Frutta secca"}
-          ]
-        },
-        {
-          "name": "Pre/Post gara",
-          "items": [
-            {"name": "Tessera società"},
-            {"name": "Abbigliamento di ricambio"},
-            {"name": "Abbigliamento della squadra"},
-            {"name": "Kit doccia (Asciugamano/Accappatoio, sapone, ciabatte)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "ciclismo",
-      "name": "Ciclismo",
-      "icon": "bike",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Generale",
-          "icon": "bike",
-          "items": [
-            {"name": "Bici"},
-            {"name": "Casco"},
-            {"name": "Scarpe bici"},
-            {"name": "Occhiali da sole"},
-            {"name": "Calze"},
-            {"name": "Borraccia"},
-            {"name": "Pompetta bici"},
-            {"name": "GPS"},
-            {"name": "Fascia cardio"}
-          ]
-        },
-        {
-          "name": "Alimentazione",
-          "items": [
-            {"name": "Acqua/Borraccia"},
-            {"name": "Sali minerali"},
-            {"name": "Carbo gel"},
-            {"name": "Barrette"},
-            {"name": "Frutta secca"}
-          ]
-        },
-        {
-          "name": "Pre/Post gara",
-          "items": [
-            {"name": "Tessera società"},
-            {"name": "Abbigliamento di ricambio"},
-            {"name": "Abbigliamento della squadra"},
-            {"name": "Kit doccia (Asciugamano/Accappatoio, sapone, ciabatte)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "corsa",
-      "name": "Corsa",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Generale",
-          "items": [
-            {"name": "Scarpe running"},
-            {"name": "Occhiali da sole"},
-            {"name": "Cappellino"},
-            {"name": "Spille per numero di gara"},
-            {"name": "GPS"},
-            {"name": "Fascia cardio"}
-          ]
-        },
-        {
-          "name": "Alimentazione",
-          "items": [
-            {"name": "Acqua/Borraccia"},
-            {"name": "Sali minerali"},
-            {"name": "Carbo gel"},
-            {"name": "Barrette"},
-            {"name": "Frutta secca"}
-          ]
-        },
-        {
-          "name": "Pre/Post gara",
-          "items": [
-            {"name": "Tessera società"},
-            {"name": "Abbigliamento di ricambio"},
-            {"name": "Abbigliamento della squadra"},
-            {"name": "Kit doccia (Asciugamano/Accappatoio, sapone, ciabatte)"}
-          ]
-        }
-      ]
-    },
-
-    {
-        "id": "tennis",
-        "name": "Tennis",
-        "visible": true,
-        "categories": [
-          {
-            "name": "Generale",
-            "items": [
-              {"name": "Racchetta"},
-              {"name": "Racchetta di riserva"},
-              {"name": "Palline"},
-              {"name": "Borsone"},
-              {"name": "Scarpe"},
-              {"name": "Maglia"},
-              {"name": "Pantaloncini / Gonna"},
-              {"name": "Calzini"},
-              {"name": "Cappellino / Visiera"}
-            ]
-          },
-          {
-            "name": "Alimentazione",
-            "items": [
-              {"name": "Acqua/Borraccia"},
-              {"name": "Sali minerali"},
-              {"name": "Carbo gel"},
-              {"name": "Barrette"},
-              {"name": "Frutta secca"}
-            ]
-          },
-          {
-            "name": "Pre/Post gara",
-            "items": [
-              {"name": "Tessera società"},
-              {"name": "Abbigliamento di ricambio"},
-              {"name": "Abbigliamento della squadra"},
-              {"name": "Asciugamano"},
-              {"name": "Polsini"},
-              {"name": "Overgrip di ricambio"},
-              {"name": "Nastro / Cerotti per vesciche"},
-              {"name": "Protezione solare"},
-              {"name": "Cambio completo post-partita"},
-              {"name": "Kit doccia (Asciugamano/Accappatoio, sapone, ciabatte)"}
-            ]
-          }
+  {
+    "id": "vacation",
+    "name": "Vacanza",
+    "icon": "flight",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documenti",
+        "icon": "description",
+        "items": [
+          { "name": "Carta d'identità o passaporto" },
+          { "name": "Biglietti e prenotazioni" },
+          { "name": "Patente di guida" },
+          { "name": "Assicurazione viaggio" }
         ]
       },
-
-    {
-        "id": "calcio",
-        "name": "Calcio",
-        "visible": true,
-        "categories": [
-          {
-            "name": "Generale",
-            "items": [
-              {"name": "Borsone"},
-              {"name": "Scarpette"},
-              {"name": "Parastinchi"},
-              {"name": "Maglia"},
-              {"name": "Pantaloncini"},
-              {"name": "Calzettoni"}
-            ]
-          },
-          {
-            "name": "Alimentazione",
-            "items": [
-              {"name": "Acqua/Borraccia"},
-              {"name": "Sali minerali"},
-              {"name": "Carbo gel"},
-              {"name": "Barrette"},
-              {"name": "Frutta secca"}
-            ]
-          },
-          {
-            "name": "Pre/Post gara",
-            "items": [
-              {"name": "Tessera società"},
-              {"name": "Abbigliamento di ricambio"},
-              {"name": "Abbigliamento della squadra"},
-              {"name": "Nastro per fissare i parastinchi"},
-              {"name": "Cambio completo post-partita"},
-              {"name": "Kit doccia (Asciugamano/Accappatoio, sapone, ciabatte)"}
-            ]
-          }
+      {
+        "name": "Abbigliamento",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Biancheria" },
+          { "name": "Vestiti" },
+          { "name": "Scarpe" },
+          { "name": "Pigiama" }
+        ]
+      },
+      {
+        "name": "Igiene personale",
+        "icon": "clean_hands",
+        "items": [
+          { "name": "Spazzolino" },
+          { "name": "Dentifricio" },
+          { "name": "Shampoo" },
+          { "name": "Deodorante" }
+        ]
+      },
+      {
+        "name": "Elettronica",
+        "icon": "devices",
+        "items": [
+          { "name": "Telefono" },
+          { "name": "Caricabatterie" },
+          { "name": "Power bank" },
+          { "name": "Cuffie/auricolari" }
+        ]
+      },
+      {
+        "name": "Farmaci",
+        "icon": "medical_services",
+        "items": [
+          { "name": "Farmaci personali" },
+          { "name": "Cerotti" },
+          { "name": "Antidolorifico" }
+        ]
+      },
+      {
+        "name": "Accessori",
+        "icon": "backpack",
+        "items": [
+          { "name": "Zaino" },
+          { "name": "Occhiali da sole" },
+          { "name": "Borraccia" }
         ]
       }
-
+    ]
+  },
+  {
+    "id": "business_trip",
+    "name": "Viaggio di lavoro",
+    "icon": "work",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documenti",
+        "icon": "description",
+        "items": [
+          { "name": "Carta d'identità o passaporto" },
+          { "name": "Biglietti e prenotazioni" },
+          { "name": "Documenti di lavoro" }
+        ]
+      },
+      {
+        "name": "Lavoro",
+        "icon": "work",
+        "items": [
+          { "name": "Computer portatile" },
+          { "name": "Caricabatterie PC" },
+          { "name": "Documenti di lavoro" },
+          { "name": "Materiale per riunioni" }
+        ]
+      },
+      {
+        "name": "Elettronica",
+        "icon": "devices",
+        "items": [
+          { "name": "Telefono" },
+          { "name": "Caricabatterie" },
+          { "name": "Adattatore universale" },
+          { "name": "Cuffie/auricolari" }
+        ]
+      },
+      {
+        "name": "Abbigliamento",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Abito o vestiti da lavoro" },
+          { "name": "Scarpe eleganti" },
+          { "name": "Cambio personale" }
+        ]
+      },
+      {
+        "name": "Accessori",
+        "icon": "backpack",
+        "items": [
+          { "name": "Valigetta o zaino" },
+          { "name": "Agenda" },
+          { "name": "Penna" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camper_van",
+    "name": "Camper / Van",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Documenti e viaggio",
+        "icon": "description",
+        "items": [
+          { "name": "Patente" },
+          { "name": "Documenti del veicolo" },
+          { "name": "Assicurazione" },
+          { "name": "Mappe e itinerario" }
+        ]
+      },
+      {
+        "name": "Mezzo",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Chiavi di riserva" },
+          { "name": "Cavo alimentazione esterna" },
+          { "name": "Adattatori elettrici" },
+          { "name": "Livella per parcheggio" },
+          { "name": "Cunei ruote" }
+        ]
+      },
+      {
+        "name": "Abitacolo",
+        "icon": "home",
+        "items": [
+          { "name": "Lenzuola" },
+          { "name": "Coperte" },
+          { "name": "Cuscini" },
+          { "name": "Asciugamani" }
+        ]
+      },
+      {
+        "name": "Cucina",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Pentole e padelle" },
+          { "name": "Piatti e posate" },
+          { "name": "Bicchieri" },
+          { "name": "Caffettiera" },
+          { "name": "Scorte alimentari" }
+        ]
+      },
+      {
+        "name": "Servizi e autonomia",
+        "icon": "build",
+        "items": [
+          { "name": "Tanica acqua" },
+          { "name": "Tubo acqua" },
+          { "name": "Cavo elettrico" },
+          { "name": "Adattatori prese" },
+          { "name": "Prodotti WC chimico" }
+        ]
+      },
+      {
+        "name": "Sicurezza",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit pronto soccorso" },
+          { "name": "Estintore" },
+          { "name": "Torcia" },
+          { "name": "Kit riparazioni" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beach",
+    "name": "Mare",
+    "icon": "beach_access",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Spiaggia",
+        "icon": "beach_access",
+        "items": [
+          { "name": "Costume da bagno" },
+          { "name": "Asciugamano" },
+          { "name": "Ciabatte" },
+          { "name": "Borsa mare" }
+        ]
+      },
+      {
+        "name": "Protezione solare",
+        "icon": "wb_sunny",
+        "items": [
+          { "name": "Crema solare" },
+          { "name": "Doposole" },
+          { "name": "Occhiali da sole" },
+          { "name": "Cappello" }
+        ]
+      },
+      {
+        "name": "Mare",
+        "icon": "pool",
+        "items": [
+          { "name": "Maschera e boccaglio" },
+          { "name": "Giochi da spiaggia" },
+          { "name": "Borraccia" }
+        ]
+      },
+      {
+        "name": "Tempo libero",
+        "icon": "sports",
+        "items": [
+          { "name": "Libro" },
+          { "name": "Carte da gioco" },
+          { "name": "Cuffie/Auricolari" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mountain",
+    "name": "Montagna",
+    "icon": "terrain",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Escursione",
+        "icon": "hiking",
+        "items": [
+          { "name": "Scarponi da trekking" },
+          { "name": "Zaino" },
+          { "name": "Bastoncini da trekking" },
+          { "name": "Borraccia" }
+        ]
+      },
+      {
+        "name": "Abbigliamento tecnico",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Giacca impermeabile" },
+          { "name": "Pile o felpa" },
+          { "name": "Pantaloni tecnici" },
+          { "name": "Calze tecniche" }
+        ]
+      },
+      {
+        "name": "Sicurezza",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit pronto soccorso" },
+          { "name": "Torcia" },
+          { "name": "Bussola o GPS" },
+          { "name": "Fischietto emergenza" }
+        ]
+      },
+      {
+        "name": "Accessori",
+        "icon": "backpack",
+        "items": [
+          { "name": "Occhiali da sole" },
+          { "name": "Crema solare" },
+          { "name": "Cappello" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camping",
+    "name": "Campeggio",
+    "icon": "camping",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Riparo",
+        "icon": "home",
+        "items": [
+          { "name": "Tenda" },
+          { "name": "Picchetti" },
+          { "name": "Materassino" },
+          { "name": "Sacco a pelo" }
+        ]
+      },
+      {
+        "name": "Cucina",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Fornello da campeggio" },
+          { "name": "Pentole" },
+          { "name": "Posate" },
+          { "name": "Bicchieri" },
+          { "name": "Cibo" }
+        ]
+      },
+      {
+        "name": "Illuminazione",
+        "icon": "light",
+        "items": [
+          { "name": "Torcia" },
+          { "name": "Lampada da campeggio" },
+          { "name": "Batterie di ricambio" }
+        ]
+      },
+      {
+        "name": "Attrezzatura",
+        "icon": "build",
+        "items": [
+          { "name": "Coltellino multiuso" },
+          { "name": "Corda" },
+          { "name": "Nastro adesivo" },
+          { "name": "Kit riparazioni" }
+        ]
+      },
+      {
+        "name": "Emergenza",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Kit pronto soccorso" },
+          { "name": "Farmaci personali" },
+          { "name": "Repellente insetti" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "road_trip",
+    "name": "Road Trip",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Auto",
+        "icon": "directions_car",
+        "items": [
+          {"name": "Patente"},
+          {"name": "Documenti auto"},
+          {"name": "Assicurazione auto"},
+          {"name": "Chiavi di riserva"}
+        ]
+      },
+      {
+        "name": "Navigazione",
+        "icon": "navigation",
+        "items": [
+          {"name": "Navigatore GPS"},
+          {"name": "Mappe offline"},
+          {"name": "Supporto telefono auto"}
+        ]
+      },
+      {
+        "name": "Viaggio",
+        "icon": "luggage",
+        "items": [
+          {"name": "Snack"},
+          {"name": "Acqua"},
+          {"name": "Coperta"},
+          {"name": "Cuscino da viaggio"}
+        ]
+      },
+      {
+        "name": "Emergenza",
+        "icon": "warning",
+        "items": [
+          {"name": "Kit pronto soccorso"},
+          {"name": "Triangolo emergenza" },
+          {"name": "Cavi batteria"},
+          {"name": "Torcia"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ski",
+    "name": "Sci e neve",
+    "icon": "ac_unit",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Attrezzatura sci",
+        "icon": "sports",
+        "items": [
+          { "name": "Sci o snowboard" },
+          { "name": "Scarponi da sci" },
+          { "name": "Bastoncini" },
+          { "name": "Casco" },
+          { "name": "Maschera da sci" }
+        ]
+      },
+      {
+        "name": "Abbigliamento tecnico",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Giacca da sci" },
+          { "name": "Pantaloni da sci" },
+          { "name": "Intimo termico" },
+          { "name": "Guanti" },
+          { "name": "Calze termiche" }
+        ]
+      },
+      {
+        "name": "Protezione",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Crema solare" },
+          { "name": "Burro cacao" },
+          { "name": "Occhiali da sole" },
+          { "name": "Kit pronto soccorso" }
+        ]
+      },
+      {
+        "name": "Viaggio",
+        "icon": "luggage",
+        "items": [
+          { "name": "Documenti" },
+          { "name": "Skipass" },
+          { "name": "Prenotazioni" },
+          { "name": "Caricabatterie" }
+        ]
+      },
+      {
+        "name": "Tempo libero",
+        "icon": "sports",
+        "items": [
+          { "name": "Costume per piscina/spa" },
+          { "name": "Ciabatte" },
+          { "name": "Abbigliamento comodo" },
+          { "name": "Libro" }
+        ]
+      }
+    ]
+  }
 ]

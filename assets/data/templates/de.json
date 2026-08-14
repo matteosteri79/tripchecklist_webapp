@@ -1,275 +1,451 @@
 [
   {
-      "id": "triathlon",
-      "name": "Triathlon",
-      "icon": "timeline",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Schwimmen",
-          "icon": "swim",
-          "items": [
-            {"name": "Schwimmbrille"},
-            {"name": "Triathlonanzug"},
-            {"name": "Neoprenanzug"},
-            {"name": "Badekappe"},
-            {"name": "Badeschuhe"},
-            {"name": "GPS"},
-            {"name": "Herzfrequenzgurt"}
-          ]
-        },
-        {
-          "name": "Radfahren",
-          "icon": "bike",
-          "items": [
-            {"name": "Fahrrad"},
-            {"name": "Helm"},
-            {"name": "Radschuhe"},
-            {"name": "Sonnenbrille"},
-            {"name": "Socken"},
-            {"name": "Trinkflasche"},
-            {"name": "Fahrradpumpe"}
-          ]
-        },
-        {
-          "name": "Laufen",
-          "items": [
-            {"name": "Laufschuhe"},
-            {"name": "Sonnenbrille"},
-            {"name": "Mütze"}
-          ]
-        },
-        {
-          "name": "Wechselzonen",
-          "items": [
-            {"name": "Startnummernhalter"},
-            {"name": "Gummibänder für Radschuhe"},
-            {"name": "Talkumpuder"},
-            {"name": "Vaseline"}
-          ]
-        },
-        {
-          "name": "Ernährung",
-          "items": [
-            {"name": "Wasser/Trinkflasche"},
-            {"name": "Mineralsalze"},
-            {"name": "Kohlenhydrat-Gel"},
-            {"name": "Energieriegel"},
-            {"name": "Trockenfrüchte"}
-          ]
-        },
-        {
-          "name": "Vor/Nach dem Wettkampf",
-          "items": [
-            {"name": "Vereinskarte"},
-            {"name": "Wechselkleidung"},
-            {"name": "Teamkleidung"},
-            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "nuoto",
-      "name": "Schwimmen",
-      "icon": "swim",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Allgemein",
-          "icon": "swim",
-          "items": [
-            {"name": "Schwimmbrille"},
-            {"name": "Neoprenanzug/Wettkampfanzug"},
-            {"name": "Badekappe"},
-            {"name": "Badeschuhe"}
-          ]
-        },
-        {
-          "name": "Ernährung",
-          "items": [
-            {"name": "Wasser/Trinkflasche"},
-            {"name": "Mineralsalze"},
-            {"name": "Kohlenhydrat-Gel"},
-            {"name": "Energieriegel"},
-            {"name": "Trockenfrüchte"}
-          ]
-        },
-        {
-          "name": "Vor/Nach dem Wettkampf",
-          "items": [
-            {"name": "Vereinskarte"},
-            {"name": "Wechselkleidung"},
-            {"name": "Teamkleidung"},
-            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
-          ]
-        }
-      ]
-    },    {
-      "id": "ciclismo",
-      "name": "Radfahren",
-      "icon": "bike",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Allgemein",
-          "icon": "bike",
-          "items": [
-            {"name": "Fahrrad"},
-            {"name": "Helm"},
-            {"name": "Radschuhe"},
-            {"name": "Sonnenbrille"},
-            {"name": "Socken"},
-            {"name": "Trinkflasche"},
-            {"name": "Fahrradpumpe"},
-            {"name": "GPS"},
-            {"name": "Herzfrequenzgurt"}
-          ]
-        },
-        {
-          "name": "Ernährung",
-          "items": [
-            {"name": "Wasser/Trinkflasche"},
-            {"name": "Mineralsalze"},
-            {"name": "Kohlenhydrat-Gel"},
-            {"name": "Energieriegel"},
-            {"name": "Trockenfrüchte"}
-          ]
-        },
-        {
-          "name": "Vor/Nach dem Wettkampf",
-          "items": [
-            {"name": "Vereinskarte"},
-            {"name": "Wechselkleidung"},
-            {"name": "Teamkleidung"},
-            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "corsa",
-      "name": "Laufen",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Allgemein",
-          "items": [
-            {"name": "Laufschuhe"},
-            {"name": "Sonnenbrille"},
-            {"name": "Mütze"},
-            {"name": "Sicherheitsnadeln für Startnummer"},
-            {"name": "GPS"},
-            {"name": "Herzfrequenzgurt"}
-          ]
-        },
-        {
-          "name": "Ernährung",
-          "items": [
-            {"name": "Wasser/Trinkflasche"},
-            {"name": "Mineralsalze"},
-            {"name": "Kohlenhydrat-Gel"},
-            {"name": "Energieriegel"},
-            {"name": "Trockenfrüchte"}
-          ]
-        },
-        {
-          "name": "Vor/Nach dem Wettkampf",
-          "items": [
-            {"name": "Vereinskarte"},
-            {"name": "Wechselkleidung"},
-            {"name": "Teamkleidung"},
-            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
-          ]
-        }
-      ]
-    },    {
-      "id": "tennis",
-      "name": "Tennis",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Allgemein",
-          "items": [
-            {"name": "Tennisschläger"},
-            {"name": "Ersatzschläger"},
-            {"name": "Tennisbälle"},
-            {"name": "Sporttasche"},
-            {"name": "Schuhe"},
-            {"name": "Trikot"},
-            {"name": "Shorts / Rock"},
-            {"name": "Socken"},
-            {"name": "Mütze / Visier"}
-          ]
-        },
-        {
-          "name": "Ernährung",
-          "items": [
-            {"name": "Wasser/Trinkflasche"},
-            {"name": "Mineralsalze"},
-            {"name": "Kohlenhydrat-Gel"},
-            {"name": "Energieriegel"},
-            {"name": "Trockenfrüchte"}
-          ]
-        },
-        {
-          "name": "Vor/Nach dem Spiel",
-          "items": [
-            {"name": "Vereinskarte"},
-            {"name": "Wechselkleidung"},
-            {"name": "Teamkleidung"},
-            {"name": "Handtuch"},
-            {"name": "Schweißbänder"},
-            {"name": "Ersatz-Overgrip"},
-            {"name": "Band / Blasenpflaster"},
-            {"name": "Sonnenschutz"},
-            {"name": "Kompletter Wechsel nach dem Spiel"},
-            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "calcio",
-      "name": "Fußball",
-      "visible": true,
-      "categories": [
-        {
-          "name": "Allgemein",
-          "items": [
-            {"name": "Sporttasche"},
-            {"name": "Fußballschuhe"},
-            {"name": "Schienbeinschoner"},
-            {"name": "Trikot"},
-            {"name": "Shorts"},
-            {"name": "Stutzen"}
-          ]
-        },
-        {
-          "name": "Ernährung",
-          "items": [
-            {"name": "Wasser/Trinkflasche"},
-            {"name": "Mineralsalze"},
-            {"name": "Kohlenhydrat-Gel"},
-            {"name": "Energieriegel"},
-            {"name": "Trockenfrüchte"}
-          ]
-        },
-        {
-          "name": "Vor/Nach dem Spiel",
-          "items": [
-            {"name": "Vereinskarte"},
-            {"name": "Wechselkleidung"},
-            {"name": "Teamkleidung"},
-            {"name": "Tape zur Befestigung der Schienbeinschoner"},
-            {"name": "Kompletter Wechsel nach dem Spiel"},
-            {"name": "Duschset (Handtuch/Bademantel, Seife, Badeschuhe)"}
-          ]
-        }
-      ]
-    }
-
-  ]
+    "id": "vacation",
+    "name": "Urlaub",
+    "icon": "flight",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Dokumente",
+        "icon": "description",
+        "items": [
+          { "name": "Personalausweis oder Reisepass" },
+          { "name": "Tickets und Reservierungen" },
+          { "name": "Führerschein" },
+          { "name": "Reiseversicherung" }
+        ]
+      },
+      {
+        "name": "Kleidung",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Unterwäsche" },
+          { "name": "Kleidung" },
+          { "name": "Schuhe" },
+          { "name": "Pyjama" }
+        ]
+      },
+      {
+        "name": "Körperpflege",
+        "icon": "clean_hands",
+        "items": [
+          { "name": "Zahnbürste" },
+          { "name": "Zahnpasta" },
+          { "name": "Shampoo" },
+          { "name": "Deodorant" }
+        ]
+      },
+      {
+        "name": "Elektronik",
+        "icon": "devices",
+        "items": [
+          { "name": "Telefon" },
+          { "name": "Ladegerät" },
+          { "name": "Powerbank" },
+          { "name": "Kopfhörer/Ohrhörer" }
+        ]
+      },
+      {
+        "name": "Medikamente",
+        "icon": "medical_services",
+        "items": [
+          { "name": "Persönliche Medikamente" },
+          { "name": "Pflaster" },
+          { "name": "Schmerzmittel" }
+        ]
+      },
+      {
+        "name": "Zubehör",
+        "icon": "backpack",
+        "items": [
+          { "name": "Rucksack" },
+          { "name": "Sonnenbrille" },
+          { "name": "Trinkflasche" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business_trip",
+    "name": "Geschäftsreise",
+    "icon": "work",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Dokumente",
+        "icon": "description",
+        "items": [
+          { "name": "Personalausweis oder Reisepass" },
+          { "name": "Tickets und Reservierungen" },
+          { "name": "Arbeitsdokumente" }
+        ]
+      },
+      {
+        "name": "Arbeit",
+        "icon": "work",
+        "items": [
+          { "name": "Laptop" },
+          { "name": "Laptop-Ladegerät" },
+          { "name": "Arbeitsdokumente" },
+          { "name": "Unterlagen für Besprechungen" }
+        ]
+      },
+      {
+        "name": "Elektronik",
+        "icon": "devices",
+        "items": [
+          { "name": "Telefon" },
+          { "name": "Ladegerät" },
+          { "name": "Universaladapter" },
+          { "name": "Kopfhörer/Ohrhörer" }
+        ]
+      },
+      {
+        "name": "Kleidung",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Anzug oder Arbeitskleidung" },
+          { "name": "Elegante Schuhe" },
+          { "name": "Persönlicher Wechsel" }
+        ]
+      },
+      {
+        "name": "Zubehör",
+        "icon": "backpack",
+        "items": [
+          { "name": "Aktentasche oder Rucksack" },
+          { "name": "Notizbuch" },
+          { "name": "Stift" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camper_van",
+    "name": "Wohnmobil / Van",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Dokumente und Reise",
+        "icon": "description",
+        "items": [
+          { "name": "Führerschein" },
+          { "name": "Fahrzeugdokumente" },
+          { "name": "Versicherung" },
+          { "name": "Karten und Route" }
+        ]
+      },
+      {
+        "name": "Fahrzeug",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Ersatzschlüssel" },
+          { "name": "Externes Stromkabel" },
+          { "name": "Elektrische Adapter" },
+          { "name": "Auffahrkeile" },
+          { "name": "Unterlegkeile" }
+        ]
+      },
+      {
+        "name": "Wohnbereich",
+        "icon": "home",
+        "items": [
+          { "name": "Bettwäsche" },
+          { "name": "Decken" },
+          { "name": "Kissen" },
+          { "name": "Handtücher" }
+        ]
+      },
+      {
+        "name": "Küche",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Töpfe und Pfannen" },
+          { "name": "Teller und Besteck" },
+          { "name": "Gläser" },
+          { "name": "Kaffeemaschine" },
+          { "name": "Lebensmittelvorräte" }
+        ]
+      },
+      {
+        "name": "Versorgung und Autonomie",
+        "icon": "build",
+        "items": [
+          { "name": "Wasserkanister" },
+          { "name": "Wasserschlauch" },
+          { "name": "Stromkabel" },
+          { "name": "Steckeradapter" },
+          { "name": "Chemie-WC-Produkte" }
+        ]
+      },
+      {
+        "name": "Sicherheit",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Erste-Hilfe-Set" },
+          { "name": "Feuerlöscher" },
+          { "name": "Taschenlampe" },
+          { "name": "Reparaturset" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beach",
+    "name": "Strand",
+    "icon": "beach_access",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Strand",
+        "icon": "beach_access",
+        "items": [
+          { "name": "Badeanzug" },
+          { "name": "Handtuch" },
+          { "name": "Flip-Flops" },
+          { "name": "Strandtasche" }
+        ]
+      },
+      {
+        "name": "Sonnenschutz",
+        "icon": "wb_sunny",
+        "items": [
+          { "name": "Sonnencreme" },
+          { "name": "After-Sun-Lotion" },
+          { "name": "Sonnenbrille" },
+          { "name": "Hut" }
+        ]
+      },
+      {
+        "name": "Meer",
+        "icon": "pool",
+        "items": [
+          { "name": "Maske und Schnorchel" },
+          { "name": "Strandspiele" },
+          { "name": "Trinkflasche" }
+        ]
+      },
+      {
+        "name": "Freizeit",
+        "icon": "sports",
+        "items": [
+          { "name": "Buch" },
+          { "name": "Spielkarten" },
+          { "name": "Kopfhörer/Ohrhörer" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mountain",
+    "name": "Berge",
+    "icon": "terrain",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Wanderung",
+        "icon": "hiking",
+        "items": [
+          { "name": "Wanderschuhe" },
+          { "name": "Rucksack" },
+          { "name": "Wanderstöcke" },
+          { "name": "Trinkflasche" }
+        ]
+      },
+      {
+        "name": "Technische Kleidung",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Regenjacke" },
+          { "name": "Fleece oder Sweatshirt" },
+          { "name": "Technische Hose" },
+          { "name": "Technische Socken" }
+        ]
+      },
+      {
+        "name": "Sicherheit",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Erste-Hilfe-Set" },
+          { "name": "Taschenlampe" },
+          { "name": "Kompass oder GPS" },
+          { "name": "Notfallpfeife" }
+        ]
+      },
+      {
+        "name": "Zubehör",
+        "icon": "backpack",
+        "items": [
+          { "name": "Sonnenbrille" },
+          { "name": "Sonnencreme" },
+          { "name": "Hut" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "camping",
+    "name": "Camping",
+    "icon": "camping",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Unterkunft",
+        "icon": "home",
+        "items": [
+          { "name": "Zelt" },
+          { "name": "Zeltheringe" },
+          { "name": "Isomatte" },
+          { "name": "Schlafsack" }
+        ]
+      },
+      {
+        "name": "Küche",
+        "icon": "restaurant",
+        "items": [
+          { "name": "Campingkocher" },
+          { "name": "Töpfe" },
+          { "name": "Besteck" },
+          { "name": "Becher" },
+          { "name": "Essen" }
+        ]
+      },
+      {
+        "name": "Beleuchtung",
+        "icon": "light",
+        "items": [
+          { "name": "Taschenlampe" },
+          { "name": "Campinglampe" },
+          { "name": "Ersatzbatterien" }
+        ]
+      },
+      {
+        "name": "Ausrüstung",
+        "icon": "build",
+        "items": [
+          { "name": "Multifunktionsmesser" },
+          { "name": "Seil" },
+          { "name": "Klebeband" },
+          { "name": "Reparaturset" }
+        ]
+      },
+      {
+        "name": "Notfall",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Erste-Hilfe-Set" },
+          { "name": "Persönliche Medikamente" },
+          { "name": "Insektenschutzmittel" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "road_trip",
+    "name": "Roadtrip",
+    "icon": "directions_car",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Auto",
+        "icon": "directions_car",
+        "items": [
+          { "name": "Führerschein" },
+          { "name": "Autodokumente" },
+          { "name": "Autoversicherung" },
+          { "name": "Ersatzschlüssel" }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "icon": "navigation",
+        "items": [
+          { "name": "GPS-Navigationsgerät" },
+          { "name": "Offline-Karten" },
+          { "name": "Handyhalterung fürs Auto" }
+        ]
+      },
+      {
+        "name": "Reise",
+        "icon": "luggage",
+        "items": [
+          { "name": "Snacks" },
+          { "name": "Wasser" },
+          { "name": "Decke" },
+          { "name": "Reisekissen" }
+        ]
+      },
+      {
+        "name": "Notfall",
+        "icon": "warning",
+        "items": [
+          { "name": "Erste-Hilfe-Set" },
+          { "name": "Warndreieck" },
+          { "name": "Starthilfekabel" },
+          { "name": "Taschenlampe" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ski",
+    "name": "Ski und Schnee",
+    "icon": "ac_unit",
+    "visible": true,
+    "categories": [
+      {
+        "name": "Skiausrüstung",
+        "icon": "sports",
+        "items": [
+          { "name": "Ski oder Snowboard" },
+          { "name": "Skischuhe" },
+          { "name": "Stöcke" },
+          { "name": "Helm" },
+          { "name": "Skibrille" }
+        ]
+      },
+      {
+        "name": "Technische Kleidung",
+        "icon": "checkroom",
+        "items": [
+          { "name": "Skijacke" },
+          { "name": "Skihose" },
+          { "name": "Thermounterwäsche" },
+          { "name": "Handschuhe" },
+          { "name": "Thermosocken" }
+        ]
+      },
+      {
+        "name": "Schutz",
+        "icon": "health_and_safety",
+        "items": [
+          { "name": "Sonnencreme" },
+          { "name": "Lippenbalsam" },
+          { "name": "Sonnenbrille" },
+          { "name": "Erste-Hilfe-Set" }
+        ]
+      },
+      {
+        "name": "Reise",
+        "icon": "luggage",
+        "items": [
+          { "name": "Dokumente" },
+          { "name": "Skipass" },
+          { "name": "Reservierungen" },
+          { "name": "Ladegeräte" }
+        ]
+      },
+      {
+        "name": "Freizeit",
+        "icon": "sports",
+        "items": [
+          { "name": "Badebekleidung für Pool/Spa" },
+          { "name": "Flip-Flops" },
+          { "name": "Bequeme Kleidung" },
+          { "name": "Buch" }
+        ]
+      }
+    ]
+  }
+]
